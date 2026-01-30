@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Ataraxia" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- PRIMARY -->
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryContainer">@color/orange</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <!-- BACKGROUND -->
+        <item name="android:windowBackground">@color/cream</item>
+        <item name="colorSurface">@color/cream</item>
+
+        <!-- TEXT & ICON -->
+        <item name="colorOnBackground">@color/brown</item>
+        <item name="colorOnSurface">@color/brown</item>
+
+        <!-- FONT -->
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+
+    </style>
+
+    <style name="Theme.Ataraxia" parent="Base.Theme.Ataraxia" />
+
+</resources>
